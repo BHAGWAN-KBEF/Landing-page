@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;                  /* Remove default body margin */
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;              /* Align the logo and links horizontally */
+    align-items: center;        /* Vertically center the content */
+    justify-content: space-between;
+    padding: 10px 20px;         /* Reduce padding as needed */
+    background-color: #1f2937;  /* Example background color */
+    padding-left: 250px;        /* Remove default margin */
+    padding-right: 250px;
+}
+
+.logo img {
+    max-height: 50px;           /* Limit logo size */
+}
+
+.links ul {
+    list-style: none;           /* Remove bullet points */
+    padding: 0;                 /* Remove default padding */
+    display: flex;              /* Align links horizontally */
+}
+
+.links li {
+    margin-left: 20px;          /* Space between links */
+}
+
+.links a {
+    text-decoration: none;      /* Remove underline from links */
+    color: white;               /* Link color */
+    font-size: 16px;
+}
+
+h1, p {
+    margin: 0;                  /* Remove default margins */
+    font-display: flex;
+    color: white;
+}
+
+h1 {
+    padding-top: 70px;
+}
+
+p {
+    margin-top: 10px;            /* Add margin to space out from h1 */
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    display: flex;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding-left: 250px;        /* Remove default margin */
+    padding-right: 250px;
+    display: flex;              /* Enable flexbox layout */
+    justify-content: space-between;  /* Align text and image to opposite sides */
+    align-items: center;        /* Center the items vertically */
+    flex-direction: row;        /* Keep elements in row (horizontal) */
+}
+
+.hero .text-content {
+    max-width: 50%;              /* Limit width of text section */
+    flex: 1;                     /* Allow text section to expand */
+    padding-top: 10px;
+}
+
+.hero .image-content {
+    flex: 1;                     /* Allow image section to expand */
+    display: flex;
+    justify-content: flex-end;   /* Align image to the right */
+    padding-top: 50px;
+}
+
+.hero-image {
+    width: 300px;               /* Set desired width */
+    height: auto;               /* Maintain aspect ratio */
+    display: block;             /* Ensures proper block rendering */
+}
+
+.box1,.box2,.box3,.box4{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+}
+
+.container{
+display: flex;
+justify-content: space-between;
+text-align: center;
+flex-direction: column;
+align-items: center;
+gap:20px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+   gap: 20px;
+   padding-bottom:40px;
+}
+
+.box p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+
+
+}
+
+/* Styling for the images inside the box */
+.box1 img, .box2 img, .box3 img, .box4 img {
+    width: 100px;           /* Limit the image size */
+    height: 100px;          /* Maintain the image aspect ratio */
+    object-fit: fill;
+}
+
+.Testimonial{
+ background-color: #E5E7EB;
+ padding: 20px;
+ border:1px solid #ddd;
+ justify-items: center;
+ margin-bottom: 60px;
+}
+
+.Testimonial p{
+font-size: 36px;
+font-style: italic;
+color: #333;
+padding-left:250px;
+padding-right:250px;
+
+}
+ 
+.action{
+    background-color: #3882F6;
+    padding: 20px;
+    margin:10px auto;
+    border-radius: 8px;
+    text-align: left;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.action-button{
+    padding: 10px 20px;
+    border:1px solid white;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.action-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+}
+
+.action-button:hover,.signup:hover {
+    background-color: #a5862f; /* Button hover effect */
+
+}
